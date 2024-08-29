@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Suit-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .light,
 .light * {
   box-sizing: border-box;
@@ -40,7 +47,7 @@
 .div2 {
   color: #000000;
   text-align: center;
-  font-family: "SuitVariable-ExtraBold", sans-serif;
+  font-family: "Suit-ExtraBold", sans-serif;
   font-size: 13px;
   font-weight: 800;
   position: relative;
