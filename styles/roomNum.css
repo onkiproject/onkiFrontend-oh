@@ -1,16 +1,21 @@
 @font-face {
-  font-family: 'MapoBackpacking';
-  src: url('fonts/MapoBackpacking.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MapoBackpacking';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoBackpackingA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family: 'suit';
-  src: url('fonts/Pretendard-Medium.woff') format('woff');
-  font-weight: 500; /*medium*/
+    font-family: 'suit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'suit-black';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Black.woff2') format('woff');
+  font-weight: 900;
   font-style: normal;
 }
-
 .mapoFontTxt1 {
   color: #000000;
   font-size: 13px;
