@@ -1,0 +1,102 @@
+.light,
+.light * {
+  box-sizing: border-box;
+}
+.light {
+  background: #fff8ef;
+  height: 852px;
+  position: relative;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  inset: 0;
+}
+.logo {
+  width: 177px;
+  height: 77px;
+  position: absolute;
+  top: 206px;
+  left: calc(50% - 88.5px);
+}
+.user-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 121px;
+  position: absolute;
+  right: 15.5%;
+  top: 58.5%;
+}
+.user-4-pic {
+  flex-shrink: 0;
+  width: 121px;
+  height: 121px;
+  position: relative;
+  overflow: visible;
+}
+.div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "SuitVariable-ExtraBold", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  position: relative;
+  align-self: stretch;
+}
+.user-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 121px;
+  position: absolute;
+  left: 15.5%;
+  top: 58.5%;
+}
+.user-3-pic {
+  flex-shrink: 0;
+  width: 121px;
+  height: 121px;
+  position: relative;
+  overflow: visible;
+}
+.user-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 121px;
+  position: absolute;
+  right: 15.5%;
+  top: 38.3%;
+}
+.user-2-pic {
+  flex-shrink: 0;
+  width: 121px;
+  height: 121px;
+  position: relative;
+  overflow: visible;
+}
+.user-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 121px;
+  position: absolute;
+  left: 15.5%;
+  top: 38.3%;
+}
+.user-1-pic {
+  flex-shrink: 0;
+  width: 121px;
+  height: 121px;
+  position: relative;
+  overflow: visible;
+}
