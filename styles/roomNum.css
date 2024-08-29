@@ -11,72 +11,72 @@
     font-style: normal;
 }
 @font-face {
-  font-family: 'suit-black';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Black.woff2') format('woff');
-  font-weight: 900;
-  font-style: normal;
+    font-family: 'suit-black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Black.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
 }
 .mapoFontTxt1 {
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: -0.03em;
-  font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
 }
 .mapoFontTxt2 {
-  color: var(--blue, #4535ff);
-  font-size: 13px;
-  line-height: 17px;
-  letter-spacing: -0.03em;
-  font-weight: 400;
-  text-decoration: underline;
+    color: var(--blue, #4535ff);
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .light,
 .light * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .light {
-  background: #fff8ef;
-  height: 852px;
-  position: relative;
-  overflow: hidden;
+    background: #fff8ef;
+    height: 852px;
+    position: relative;
+    overflow: hidden;
 }
 .group-4 {
-  position: absolute;
-  inset: 0;
+    position: absolute;
+    inset: 0;
 }
 .logo {
-  width: 177px;
-  height: 77px;
-  position: absolute;
-  left: calc(50% - 88.5px);
-  top: 34%;
+    width: 177px;
+    height: 77px;
+    position: absolute;
+    left: calc(50% - 88.5px);
+    top: 34%;
 }
 .rectangle-2 {
-  background: var(--green, #229c5a);
-  border-radius: 10px;
-  width: 186px;
-  height: 38px;
-  position: absolute;
-  left: calc(50% - 92.5px);
-  top: 509px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1),
+    background: var(--green, #229c5a);
+    border-radius: 10px;
+    width: 186px;
+    height: 38px;
+    position: absolute;
+    left: calc(50% - 92.5px);
+    top: 509px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1),
     0px 7px 7px 0px rgba(0, 0, 0, 0.09), 0px 16px 9px 0px rgba(0, 0, 0, 0.05),
     0px 28px 11px 0px rgba(0, 0, 0, 0.01), 0px 44px 12px 0px rgba(0, 0, 0, 0);
-  transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
 }
 .rectangle-2:hover{
-  background-color: #197141;
+    background-color: #197141;
 }
 .div {
-  color: #ffffff;
-  text-align: left;
-  font-family: "suit", sans-serif;
-  font-size: 13px;
-  font-weight: 900;
-  position: absolute;
-  left: calc(50% - 24.5px);
-  top: 520px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "suit", sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    position: absolute;
+    left: calc(50% - 24.5px);
+    top: 520px;
 }
 .roomNumInput {
     font-family: "suit", sans-serif;
@@ -130,8 +130,8 @@
     overflow: visible;
 }
 ::placeholder {
-  color: #848484;
-  text-align: left;
-  font-family: "suit", sans-serif;
-  font-size: 12px;
+    color: #848484;
+    text-align: left;
+    font-family: "suit", sans-serif;
+    font-size: 12px;
 }
