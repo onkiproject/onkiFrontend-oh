@@ -79,73 +79,59 @@
   top: 520px;
 }
 .roomNumInput {
-  background: rgba(217, 217, 217, 0.5);
-  border-radius: 10px;
-  border: 3px;
-  width: 294px;
-  height: 40px;
-  position: absolute;
-  left: calc(50% - 146.5px);
-  top: 401px;
+    font-family: "suit", sans-serif;
+    font-size: 12px;
+    padding-left: 47px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    border: 3px;
+    width: 294px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% - 146.5px);
+    top: 401px;
 }
 .pwInput {
-  background: rgba(217, 217, 217, 0.5);
-  border-radius: 10px;
-  border: 3px;
-  width: 294px;
-  height: 40px;
-  position: absolute;
-  left: calc(50% - 146.5px);
-  top: 450px;
+    font-family: "suit", sans-serif;
+    font-size: 12px;
+    padding-left: 47px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    border: 3px;
+    width: 294px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% - 146.5px);
+    top: 450px;
 }
 .div2 {
-  text-align: center;
-  font-family: "MapoBackpacking", sans-serif;
-  font-size: 13px;
-  line-height: 0undefined;
-  letter-spacing: -0.03em;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 57.5px);
-  top: 570px;
-}
-.roomNumText {
-  color: #848484;
-  text-align: left;
-  font-family: "suit", sans-serif;
-  font-size: 12px;
-  position: absolute;
-  left: calc(50% - 146.5px + 57px);
-  top: 414px;
-}
-.pwText {
-  color: #848484;
-  text-align: left;
-  font-family: "suit", sans-serif;
-  font-size: 12px;
-  position: absolute;
-  left: calc(50% - 146.5px + 57px);
-  top: 463px;
+    text-align: center;
+    font-family: "MapoBackpacking", sans-serif;
+    font-size: 13px;
+    line-height: undefined;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 57.5px);
+    top: 570px;
 }
 .key {
-  height: auto;
-  position: absolute;
-  left: calc(50% - 146.5px + 22px);
-  top: 458px;
-  overflow: visible;
+    height: auto;
+    position: absolute;
+    left: calc(50% - 146.5px + 12px);
+    top: 458px;
+    overflow: visible;
 }
 .door {
-  height: auto;
-  position: absolute;
-  left: calc(50% - 146.5px + 22px);
-  top: 409px;
-  overflow: visible;
+    height: auto;
+    position: absolute;
+    left: calc(50% - 146.5px + 12px);
+    top: 409px;
+    overflow: visible;
 }
-.frame-2 {
-  width: 77px;
-  height: 16px;
-  position: absolute;
-  left: 159px;
-  top: 587px;
-  overflow: hidden;
+::placeholder {
+  color: #848484;
+  text-align: left;
+  font-family: "suit", sans-serif;
+  font-size: 12px;
 }
