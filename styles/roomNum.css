@@ -52,7 +52,7 @@
     left: calc(50% - 88.5px);
     top: 34%;
 }
-.rectangle-2 {
+.goButton {
     background: var(--green, #229c5a);
     border-radius: 10px;
     width: 186px;
@@ -65,7 +65,7 @@
     0px 28px 11px 0px rgba(0, 0, 0, 0.01), 0px 44px 12px 0px rgba(0, 0, 0, 0);
     transition: background-color 0.1s ease-in;
 }
-.rectangle-2:hover{
+.goButton:hover{
     background-color: #197141;
 }
 .div {
