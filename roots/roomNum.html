@@ -12,7 +12,7 @@
         <div class="logo">
             <img src="../images/onki_logo.svg" alt="logo" width="177px" height="77px">
         </div>
-        <div class="rectangle-2" onclick="toSelectProfile()"></div>
+        <div class="goButton" onclick="toSelectProfile()"></div>
         <div class="div">일기 쓰기</div>
         <div class="div2">
             <span>
@@ -30,9 +30,19 @@
     </div>
 
     <script>
-      function toSelectProfile(){
-        window.location.href ="select-profile.html";
-      }
+        function toSelectProfile(){
+            window.location.href ="selectProfile.html";
+        }
+        
+        const roomNumInput = document.querySelector('.roomNumInput');
+        const pwInput = document.querySelector('.pwInput');
+        const goButton document.querySelector('.goButton');
+        function handler(){
+            if(roomNumInput.value.trim() === "" || pwInput.value.trim() === ""){
+                alert("방 코드와 비밀번호를 모두 입력해주세요.");
+            }
+        }
+        goButton.addEventListener('click', handler);
     </script>
 </body>
 </html>
